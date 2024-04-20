@@ -13,10 +13,11 @@ import {
     mongodb,
     git,
     figma,
+    docker,
     starbucks,
     tesla,
     shopify,
-    // tty,
+    tripguide,
     utube,
     jobit,
     threejs,
@@ -39,20 +40,16 @@ import {
   
   const services = [
     {
-      title: "React Developer",
+      title: "Next Js Developer",
       icon: mobile,
     },
     {
-      title: "Web Developer",
+      title: "React Developer",
       icon: web,
     },
     {
-      title: "Frontend Developer",
+      title: "MERN Developer",
       icon: backend,
-    },
-    {
-      title: "Node js developer",
-      icon: creator,
     },
   ];
   
@@ -74,6 +71,11 @@ import {
       name: "React JS",
       icon: reactjs,
     },
+    {
+      name: "Next JS",
+      icon: docker,
+    },
+
     {
       name: "Redux Toolkit",
       icon: redux,
@@ -125,16 +127,41 @@ import {
       iconBg: "#E6DEDD",
       date: "Sep 2021 - March 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Developing and maintaining web applications using React.js, Next.js.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
+        "Proficient in Next.js for server-side rendering, routing , and API integration, enhancing performance and SEO.",
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
-    }
+    },
   ];
   
  
   const projects = [
+    {
+      name: "Promptopia",
+      description:
+       "Next14 Prompt Sharing Application",
+       tags: [
+        {
+          name: "next14",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "next auth",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "mongoDb",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: tripguide,
+      source_code_link: "https://github.com/itsakhilp/nextjs_promptopia",
+    },
     {
       name: "Youtube clone",
       description:
