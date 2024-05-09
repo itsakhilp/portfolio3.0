@@ -21,6 +21,7 @@ import {
     utube,
     jobit,
     threejs,
+    jobsearch,
   } from "../assets";
   
   export const navLinks = [
@@ -40,15 +41,20 @@ import {
   
   const services = [
     {
-      title: "Next Js Developer",
-      icon: mobile,
-    },
-    {
-      title: "React Developer",
+      title: "React JS Developer",
       icon: web,
     },
     {
-      title: "MERN Developer",
+      title: "React Native Mobile App's",
+      icon: mobile,
+    },
+    {
+      title: "Next JS Developer",
+      icon: web,
+    },
+    
+    {
+      title: "MERN STACK",
       icon: backend,
     },
   ];
@@ -137,6 +143,29 @@ import {
   
  
   const projects = [
+    {
+      name: "Job Search App",
+      description:
+       "React Native based mobile application",
+       tags: [
+        {
+          name: "reactnative",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "expo",
+          color: "green-text-gradient",
+        },
+        {
+          name: "jsearch-api",
+          color: "pink-text-gradient",
+        },
+        
+      ],
+      image: jobsearch,
+      source_code_link: "https://github.com/itsakhilp/native_job_search",
+    },
+    ,
     {
       name: "Promptopia",
       description:
